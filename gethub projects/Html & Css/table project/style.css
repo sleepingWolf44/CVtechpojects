@@ -1,0 +1,26 @@
+/* Kyler Deakins 8/28/24 */
+table,th,td{
+    border:1px solid black;
+    border-collapse: collapse;
+    width: 50%;
+}
+th{
+    font-size: 20px;
+    height: 25%;
+    width: 1200px;
+    font-weight:900;
+}
+td{
+    font-size: 14px;
+    width: 40%;
+}
+p.td{
+    transform: translate(0, 300%);
+}
+#img_page{
+    width: 50px;
+}
+img{
+    height: 110%;
+    width: 101%;
+}
