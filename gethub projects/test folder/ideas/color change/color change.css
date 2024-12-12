@@ -1,0 +1,25 @@
+#Div1 {
+    z-index: -2;
+    border: 1px solid black;
+    height: 300px;
+    width: 400px;
+}
+
+#Div2 {
+    z-index: -1;
+    border: 1px solid black;
+    width: 300px;
+    height: 200px;
+    margin: 50px 0 0 50px;
+}
+
+#Div3 {
+    border: 1px solid black;
+    width: 200px;
+    height: 150px;
+    margin: 23px 0 0 47px;
+}
+
+#DivBtn {
+    margin-top: 30px;
+}

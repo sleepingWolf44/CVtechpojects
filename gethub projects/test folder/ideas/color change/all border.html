@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<link rel="stylesheet" href="spin2.css">
+<html>
+<style>
+    .example {
+        border: 1px solid black;
+        margin: 5px;
+    }
+</style>
+
+<body>
+
+    <h1>The Document Object</h1>
+    <h2>The querySelectorAll() Method</h2>
+
+    <p>Change the background color of all elements with class="example":</p>
+
+    <div class="example">
+        A div with class="example"
+    </div>
+
+    <div class="example">
+        A div with class="example"
+    </div>
+
+    <p class="example">This is a p element with class="example".</p>
+
+    <div class="loader box-element"></div>
+
+    <p>This is a <span class="example">span</span> element with class="example" inside another p element.</p>
+
+
+    <script>
+        const nodeList = document.querySelectorAll(".box-element");
+        for (i = 0; i < nodeList.length; i++) {
+            nodeList[i].style.borderBottomColor = "#c40000";
+        }
+    </script>
+
+</body>
+
+</html>

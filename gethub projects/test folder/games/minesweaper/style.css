@@ -1,0 +1,52 @@
+.row{
+    text-align: center;
+}
+
+.card{
+    display: inline-block;
+    background-color: #eee;
+    width: 100px;
+    height: 100px
+}
+.card:hover{
+    box-shadow: inset 0px 0px 0px 2px black;
+}
+.card.done:hover {
+    box-shadow: none;
+}
+.mine{
+    background-color: rgb(0, 0, 0);
+}
+.none{
+    background-color: lightgreen;
+}
+.one{
+    background-color: green;
+}
+.two{
+    background-color: yellow;
+}
+.three{
+    background-color: gold;
+}
+.four{
+    background-color: orange;
+}
+.five {
+    background-color: red;
+}
+.six {
+    background-color: blueviolet;
+}
+.seven {
+    background-color: rgb(43, 1, 85);
+}
+.med{
+    display: none;
+}
+.hidden {
+    background-color: #eee;
+}
+.mark {
+    background-color: rgb(80, 77, 77);
+}
