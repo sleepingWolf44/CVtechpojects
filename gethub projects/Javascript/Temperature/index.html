@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- graded -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="./java.js"></script>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <p>From: <input type="button" value="Fahrenheit" onclick="Ffrom()"><input type="button" value="Celsius" onclick="Cfrom()"><input type="button" value="Kelvin" onclick="Kfrom()"></p>
+    <input type="hidden" value="1" id="From">
+    <input type="hidden" value="2" id="to">
+    <p>To: <input type="button" value="Fahrenheit" onclick="Fto()"><input type="button" value="Celsius"onclick="Cto()"><input type="button" value="Kelvin" onclick="Kto()"></p>
+    <p>Number: <input type="text" value="" id="first"></p>
+    <p><span id="FAns">Fahrenheit</span> to <span id="TAns">Celsius</span></p>
+    <input type="button" onclick="Submit()" value="Convert">
+    <br>
+    <p id="result"> </p>
+</body>
+</html>
