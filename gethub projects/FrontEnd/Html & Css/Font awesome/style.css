@@ -1,0 +1,25 @@
+body{
+    background-color: #f4f4f4;
+}
+table,th,td{
+    border:1px solid black;
+    border-collapse: collapse;
+    table-layout: fixed;
+    padding: 15px;
+}
+#green{
+    background-color: rgb(216, 251, 216);
+    padding-left: 20px; 
+}
+th.long{
+    writing-mode:vertical-lr;
+    transform:rotate(180deg);
+    text-align: start;
+}
+td.long{
+    padding-right: 75px;
+}
+i.long{
+    transform: rotate(180deg);
+    font-size: 20px
+}
