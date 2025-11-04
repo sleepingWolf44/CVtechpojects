@@ -1,0 +1,49 @@
+.center{
+    margin-top: -150px;
+    margin-left: 45%;
+    margin-bottom: 30%;
+}
+.loader {
+    border: 20px  #f3f3f3;
+    border-radius: 70%;
+    border-top: 30px solid #000000;
+    border-bottom: 10px double #00c40a;
+    border-right: 5px double #00ff5e;
+    border-left: 5px double #00ff5e;
+    width: 170px;
+    height: 70px;
+    animation: spin 510s linear infinite;
+    padding: 5px;
+}
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+    50%{
+        transform: rotate(360deg);
+    }
+    100% {
+        transform: rotate(0deg);
+    }
+}
+input{
+    background-color: rgb(221, 221, 221);
+}
+.color{
+    background-color: transparent;
+    border: 0cap;
+}
+.right{
+    text-align: right;
+    transform: translateY(-285px);
+    pointer-events: none;
+}
+.see{
+    color: #000000;
+}
+.click{
+    pointer-events: initial;
+}
+.hidden{
+    visibility: hidden;
+}
