@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- navigation -->
+        <button id="navbutton" popovertarget="navlist" popovertargetaction="toggel">
+            <svg width="100%" height="100%">
+                <defs>
+                    <linearGradient id="grad" x1="70%" y1="0%" x2="0%" y2="100%">
+                        <stop offset="20%" id="gradientaqua"/>
+                        <stop offset="100%" id="gradientblue"/>
+                    </linearGradient>
+                </defs>
+                <rect width="25%" height="25%" fill="url(#grad)" />
+                <text fill="#ffffff" font-size="100" font-family="Verdana" x="190" y="100">Navigation</text>
+            </svg></button>
+        <ul popover id="navlist">
+            <li><a href="./index.html">Home</a></li>
+            <li><br></li>
+            <li><a href="./music.html">Favorite Music</a></li>
+            <li><br></li>
+            <li><a href="./games.html">Favorite Games</a></li>
+            <li><br></li>
+            <li><a href="./contact.html">Contact Us</a></li>
+        </ul>
+    <!-- end of navigation -->
+    <!-- design element -->
+    <svg width="100%" height="15px">
+        <rect width="100%" height="100%" id="aqua"/>
+    </svg>
+    <svg width="100%" height="15%">
+        <rect width="100%" height="100%" id="light-blue"/>
+    </svg>
+    <svg width="100%" height="15px">
+        <rect width="100%" height="100%" id="aqua"/>
+    </svg>
+    <!-- design element end -->
+    <h1>Contact Us</h1>
+    <br>
+    <form action="">
+        <!-- name -->
+        <label for="name">Name</label>
+        <input type="text" name="name" id="name" placeholder="John doe"  />
+        <br>
+        <br>
+        <br>
+        <br>
+        <!-- email -->
+        <label for="email">Email</label>
+        <input type="text" name="email" id="email" placeholder="John.Doe@gmail.com" />
+        <br>
+        <br>
+        <br>
+        <!-- desciption -->
+        <p>Comment</p>
+        <textarea name="description" id="" cols="30" rows="10" placeholder="comment"></textarea>
+        <br>
+        <br>
+        <br>
+        <button>submit</button><button>clear</button>
+        <br>
+        <br>
+        <br>
+        <br>
+        <!--  bottem design element -->
+        <svg width="100%" height="15%">
+            <rect width="100%" height="100%" id="light-blue"/>
+        </svg>
+        <svg width="100%" height="35px">
+            <rect width="100%" height="100%" id="blue"/>
+        </svg>
+        <svg width="100%" height="25px">
+            <rect width="100%" height="100%" id="aqua"/>
+        </svg>
+        <!--  bottem design element -->
+</body>
+</html>
