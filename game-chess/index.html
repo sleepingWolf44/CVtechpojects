@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="./java.js"></script>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body onload="run()">
+    <input type="button" value="clear" onclick="restart()">
+    <h3>promote to:</h3>
+    <form>
+        <span><input type="radio" name="piece" checked id="Queen">Queen</span>
+        <span><input type="radio" name="piece" id="Rook">Rook</span>
+        <span><input type="radio" name="piece" id="Knight">Knight</span>
+        <span><input type="radio" name="piece" id="Bishop">Bishop</span>
+    </form>
+    <div class="row">
+        <div class="grave" id="WG9"></div>
+        <div class="grave" id="WG10"></div>
+        <div class="grave" id="WG11"></div>
+        <div class="grave" id="WG12"></div>
+        <div class="grave" id="WG13"></div>
+        <div class="grave" id="WG14"></div>
+        <div class="grave" id="WG15"></div>
+        <div class="grave" id="WG16"></div>
+    </div>
+    <div class="row">
+        <div class="grave" id="WG1"></div>
+        <div class="grave" id="WG2"></div>
+        <div class="grave" id="WG3"></div>
+        <div class="grave" id="WG4"></div>
+        <div class="grave" id="WG5"></div>
+        <div class="grave" id="WG6"></div>
+        <div class="grave" id="WG7"></div>
+        <div class="grave" id="WG8"></div>
+    </div>
+    <div class="row"> 
+        <div class="card Castling" id="1" onclick="Start(event)"></div>
+        <div class="card" id="2" onclick="Start(event)"></div>
+        <div class="card" id="3" onclick="Start(event)"></div>
+        <div class="card" id="4" onclick="Start(event)"></div>
+        <div class="card Castling" id="5" onclick="Start(event)"></div>
+        <div class="card" id="6" onclick="Start(event)"></div>
+        <div class="card" id="7" onclick="Start(event)"></div>
+        <div class="card Castling" id="8" onclick="Start(event)"></div>
+    </div>
+    <div class="row">
+        <div class="card" id="9" onclick="Start(event)"></div>
+        <div class="card" id="10" onclick="Start(event)"></div>
+        <div class="card" id="11" onclick="Start(event)"></div>
+        <div class="card" id="12" onclick="Start(event)"></div>
+        <div class="card" id="13" onclick="Start(event)"></div>
+        <div class="card" id="14" onclick="Start(event)"></div>
+        <div class="card" id="15" onclick="Start(event)"></div>
+        <div class="card" id="16" onclick="Start(event)"></div>
+    </div>
+    <div class="row">
+        <div class="card" id="17" onclick="Start(event)"></div>
+        <div class="card" id="18" onclick="Start(event)"></div>
+        <div class="card" id="19" onclick="Start(event)"></div>
+        <div class="card" id="20" onclick="Start(event)"></div>
+        <div class="card" id="21" onclick="Start(event)"></div>
+        <div class="card" id="22" onclick="Start(event)"></div>
+        <div class="card" id="23" onclick="Start(event)"></div>
+        <div class="card" id="24" onclick="Start(event)"></div>
+    </div>
+    <div class="row">
+        <div class="card" id="25" onclick="Start(event)"></div>
+        <div class="card" id="26" onclick="Start(event)"></div>
+        <div class="card" id="27" onclick="Start(event)"></div>
+        <div class="card" id="28" onclick="Start(event)"></div>
+        <div class="card" id="29" onclick="Start(event)"></div>
+        <div class="card" id="30" onclick="Start(event)"></div>
+        <div class="card" id="31" onclick="Start(event)"> </div>
+        <div class="card" id="32" onclick="Start(event)"></div>
+    </div>
+    <div class="row">
+        <div class="card" id="33" onclick="Start(event)"></div>
+        <div class="card" id="34" onclick="Start(event)"></div>
+        <div class="card" id="35" onclick="Start(event)"></div>
+        <div class="card" id="36" onclick="Start(event)"></div>
+        <div class="card" id="37" onclick="Start(event)"></div>
+        <div class="card" id="38" onclick="Start(event)"></div>
+        <div class="card" id="39" onclick="Start(event)"></div>
+        <div class="card" id="40" onclick="Start(event)"></div>
+    </div>
+    <div class="row">
+        <div class="card" id="41" onclick="Start(event)"></div>
+        <div class="card" id="42" onclick="Start(event)"></div>
+        <div class="card" id="43" onclick="Start(event)"></div>
+        <div class="card" id="44" onclick="Start(event)"></div>
+        <div class="card" id="45" onclick="Start(event)"></div>
+        <div class="card" id="46" onclick="Start(event)"></div>
+        <div class="card" id="47" onclick="Start(event)"></div>
+        <div class="card" id="48" onclick="Start(event)"></div>
+    </div>
+    <div class="row">
+        <div class="card" id="49" onclick="Start(event)"></div>
+        <div class="card" id="50" onclick="Start(event)"></div>
+        <div class="card" id="51" onclick="Start(event)"></div>
+        <div class="card" id="52" onclick="Start(event)"></div>
+        <div class="card" id="53" onclick="Start(event)"></div>
+        <div class="card" id="54" onclick="Start(event)"></div>
+        <div class="card" id="55" onclick="Start(event)"></div>
+        <div class="card" id="56" onclick="Start(event)"></div>
+    </div>
+    <div class="row">
+        <div class="card Castling" id="57" onclick="Start(event)"></div>
+        <div class="card" id="58" onclick="Start(event)"></div>
+        <div class="card" id="59" onclick="Start(event)"></div>
+        <div class="card" id="60" onclick="Start(event)"></div>
+        <div class="card Castling" id="61" onclick="Start(event)"></div>
+        <div class="card" id="62" onclick="Start(event)"></div>
+        <div class="card" id="63" onclick="Start(event)"></div>
+        <div class="card Castling" id="64" onclick="Start(event)"></div>
+    </div>
+    <div class="row">
+        <div class="grave" id="BG1"></div>
+        <div class="grave" id="BG2"></div>
+        <div class="grave" id="BG3"></div>
+        <div class="grave" id="BG4"></div>
+        <div class="grave" id="BG5"></div>
+        <div class="grave" id="BG6"></div>
+        <div class="grave" id="BG7"></div>
+        <div class="grave" id="BG8"></div>
+    </div>
+    <div class="row">
+        <div class="grave" id="BG9"></div>
+        <div class="grave" id="BG10"></div>
+        <div class="grave" id="BG11"></div>
+        <div class="grave" id="BG12"></div>
+        <div class="grave" id="BG13"></div>
+        <div class="grave" id="BG14"></div>
+        <div class="grave" id="BG15"></div>
+        <div class="grave" id="BG16"></div>
+    </div>
+
+    <div class="white" id="player"><br><br><br><br><br>Player:</div>
+</body>
+</html>
